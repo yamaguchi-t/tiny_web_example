@@ -1,5 +1,5 @@
 %define _prefix_path opt/axsh
-%define _tiny_web_example_git_uri git://github.com/axsh/tiny_web_example.git
+%define _tiny_web_example_git_uri git://github.com/yamaguchi-t/tiny_web_example.git
 %define oname tiny-web-example
 
 %define release_id 1.daily
@@ -10,7 +10,7 @@ Summary: Tiny Web Example.
 Name: %{oname}
 Version: 0.0.1
 Release: %{release_id}%{?dist}
-License: see https://github.com/axsh/tiny_web_example/blob/master/README.md
+License: see https://github.com/yamaguchi-t/tiny_web_example/blob/master/README.md
 Group: Development/Languages
 URL: http://example.jp/
 Source0: %{_vdc_git_uri}
