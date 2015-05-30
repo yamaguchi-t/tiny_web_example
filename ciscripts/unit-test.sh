@@ -5,9 +5,6 @@ set -e
 set -x
 set -o pipefail
 
-# message output
-echo "Group4 Unit Test"
-
 ## check mysql-server
 
 rpm -ql mysql-server >/dev/null || sudo yum install -y mysql-server
